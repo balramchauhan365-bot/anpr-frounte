@@ -174,11 +174,8 @@ export default function Login() {
             </span>
           </div>
 
-          <div className="login-form-title">Welcome Back</div>
+          <div className="login-form-title">Welcome </div>
 
-          <div className="login-form-sub">
-            Sign in to Neural Gate Command Center
-          </div>
 
           <div className="login-form" onKeyDown={handleKey}>
             {error && <div className="login-error">⚠ {error}</div>}
